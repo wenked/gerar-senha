@@ -16,7 +16,7 @@ const fila = []
              text = "<li>" + item_number  + "</li>" + "<li>" + item_2 + "</li>" + "<li>" + item_3 + "</li>"
              proximos.innerHTML = text
              if (isNaN(index)){
-                 proximos.innerHTML = 'Não há mais senhas'
+                 proximos.innerHTML = 'Acabou as senhas'
              }
         }
         // imprime as senhas chamadas 
