@@ -28,3 +28,7 @@
         margin: 4px 2px;
         cursor: pointer;
     }
+
+    .botao:active {
+        box-shadow: none;
+    }
